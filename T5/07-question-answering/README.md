@@ -2,16 +2,16 @@
 
 ## Table of Contents
 
-- [Overview](##Overview)
-- [Prerequisites and Environment](##Prerequisites-and-Environment)
-- [Data](##Data)
-- [Question Answering Model](##Question-Answering-Model)
+- [Overview](#Overview)
+- [Prerequisites and Environment](#Prerequisites-and-Environment)
+- [Data](#Data)
+- [Question Answering Model](#Question-Answering-Model)
 - [Visualization using WandB](#Visualization-using-WandB)
-- [Training Metrics](###Training-Metrics)
-- [Evaluation Metrics](###Evaluation-Metrics)
-- [System Metrics](###System-Metrics)
-- [Evaluation](##Evaluation)
-- [Conclusion](##Conclusion)
+- [Training Metrics](#Training-Metrics)
+- [Evaluation Metrics](#Evaluation-Metrics)
+- [System Metrics](#System-Metrics)
+- [Evaluation](#Evaluation)
+- [Conclusion](#Conclusion)
 
 ## Overview
 
