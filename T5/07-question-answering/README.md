@@ -1,5 +1,18 @@
 # Fine-Tuning T5 Model for Question Answering using Transformers Library
 
+## Table of Contents
+
+- [Overview](##Overview)
+- [Prerequisites and Environment](##Prerequisites-and-Environment)
+- [Data](##Data)
+- [Question Answering Model](##Question-Answering-Model)
+- [Visualization using WandB](#Visualization-using-WandB)
+- [Training Metrics](###Training-Metrics)
+- [Evaluation Metrics](###Evaluation-Metrics)
+- [System Metrics](###System-Metrics)
+- [Evaluation](##Evaluation)
+- [Conclusion](##Conclusion)
+
 ## Overview
 
 This code uses the Hugging Face Transformers library to fine-tune the T5 model for a question answering task. The code uses the Squad dataset, which is a popular dataset for question answering tasks. The code preprocesses the data, tokenizes the input and target text, and trains the model using the fine-tuning function provided by the Transformers library.
