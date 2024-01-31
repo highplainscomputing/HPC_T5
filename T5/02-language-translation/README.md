@@ -84,8 +84,7 @@ After training, evaluate your model's performance using the evaluation metrics t
 
 In addition to tracking model-specific metrics, WandB also captures system-level metrics. Monitor GPU/CPU usage, memory consumption, and other system-related information. This can be invaluable for optimizing your model's efficiency and ensuring smooth deployment.
 
-![System Metrics](system_utilization.png)
-
+![System Metrics](system_utlization.png)
 ## Evaluation
 
 The code uses the ROUGE metric to evaluate the performance of the model. ROUGE is a popular metric for evaluating the quality of generated text, and it measures the overlap between the generated text and the reference text.
