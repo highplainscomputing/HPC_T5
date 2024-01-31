@@ -64,6 +64,10 @@ There are different QA variants based on the inputs and outputs:
 
 [Weights and Biases (WandB)](https://wandb.ai/) is a machine learning development platform that allows users to track and visualize various aspects of their model training process in real-time.
 
+### Model Metrics 
+
+![model_details](model_details.png)
+
 ### Training Metrics
 
 During the training phase, WandB enables real-time tracking of key metrics such as loss, accuracy, and other relevant statistics. The interactive dashboard provides insights into the model's behavior over time, helping you identify trends and make informed decisions.
