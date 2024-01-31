@@ -4,9 +4,9 @@
 
 This code uses the Hugging Face Transformers library to fine-tune the T5 model for a question answering task. The code uses the Squad dataset, which is a popular dataset for question answering tasks. The code preprocesses the data, tokenizes the input and target text, and trains the model using the fine-tuning function provided by the Transformers library.
 
-## Prerequisites
+## Prerequisites and Environment
 
-To run this code, you need to install the following libraries:
+To run this code, you need to install the following libraries in colab like this:
 
 ```
 !pip install accelerate -U
@@ -37,7 +37,7 @@ The function returns a dictionary containing the input text, target text, and ot
 
 Question-Answering Models are machine or deep learning models that can answer questions given some context, and sometimes without any context (e.g. open-domain QA). They can extract answer phrases from paragraphs, paraphrase the answer generatively, or choose one option out of a list of given options, and so on. It all depends on the dataset it was trained on (e.g. SQuAD, CoQA, etc.) or the problem it was trained for, or to some extent the neural network architecture. So, for example, if you feed this paragraph (context) to your model trained to extract answer phrases from context, and ask a question like "What is a question-answering model?", it should output the first line of this paragraph.
 
-![Question Answering](project-logo.png)
+![Question Answering](QA.png)
 
 There are different QA variants based on the inputs and outputs:
 
