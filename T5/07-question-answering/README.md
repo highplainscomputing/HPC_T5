@@ -25,7 +25,7 @@ To run this code, you need to install the following libraries in colab like this
 ```
 ## Data
 
-The code uses the Squad dataset, which is a popular dataset for question answering tasks. The dataset consists of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage.
+The code uses the [Squad](https://huggingface.co/datasets/squad) dataset, which is a popular dataset for question answering tasks. The dataset consists of questions posed by crowdworkers on a set of Wikipedia articles, where the answer to every question is a segment of text, or span, from the corresponding reading passage.
 
 The code uses the get_data function to load and preprocess the data. The function takes the following arguments:
 
@@ -35,7 +35,7 @@ The function returns a dictionary containing the input text, target text, and ot
 
 ## Question Answering Model
 
-Question-Answering Models are machine or deep learning models that can answer questions given some context, and sometimes without any context (e.g. open-domain QA). They can extract answer phrases from paragraphs, paraphrase the answer generatively, or choose one option out of a list of given options, and so on. It all depends on the dataset it was trained on (e.g. SQuAD, CoQA, etc.) or the problem it was trained for, or to some extent the neural network architecture. So, for example, if you feed this paragraph (context) to your model trained to extract answer phrases from context, and ask a question like "What is a question-answering model?", it should output the first line of this paragraph.
+[Question Answering (QA)](https://huggingface.co/tasks/question-answering) Models are machine or deep learning models that can answer questions given some context, and sometimes without any context (e.g. open-domain QA). They can extract answer phrases from paragraphs, paraphrase the answer generatively, or choose one option out of a list of given options, and so on. It all depends on the dataset it was trained on (e.g. SQuAD, CoQA, etc.) or the problem it was trained for, or to some extent the neural network architecture. So, for example, if you feed this paragraph (context) to your model trained to extract answer phrases from context, and ask a question like "What is a question-answering model?", it should output the first line of this paragraph.
 
 ![Question Answering](QA.png)
 
