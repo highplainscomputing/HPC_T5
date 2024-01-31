@@ -5,7 +5,7 @@
 - [Overview](#Overview)
 - [Prerequisites and Environment](#Prerequisites-and-Environment)
 - [Data](#Data)
-- [Question Answering Model](#Question-Answering-Model)
+- [Language Translation Model](#Language-Translation-Model)
 - [Visualization using WandB](#Visualization-using-WandB)
 - [Training Metrics](#Training-Metrics)
 - [Evaluation Metrics](#Evaluation-Metrics)
@@ -15,7 +15,7 @@
 
 ## Overview
 
-This code uses the Hugging Face Transformers library to fine-tune the T5 model for a **Text-to-SQL**. The code uses the Squad dataset, which is a popular dataset for question answering tasks. The code preprocesses the data, tokenizes the input and target text, and trains the model using the fine-tuning function provided by the Transformers library.
+This code uses the Hugging Face Transformers library to fine-tune the T5 model for a **Lnaguage Translation**. The code uses the enimai/MuST-C-and-WMT16-de-en dataset, which is a popular dataset for Lnaguage Translation tasks. The code preprocesses the data, tokenizes the input and target text, and trains the model using the fine-tuning function provided by the Transformers library.
 
 ## Prerequisites and Environment
 
@@ -92,7 +92,7 @@ The code uses the ROUGE metric to evaluate the performance of the model. ROUGE i
 
 ## Conclusion
 
-In this code, we have shown how to fine-tune the T5 model for a **Text-to-SQL** task using the Hugging Face Transformers library. By following the steps outlined in the code, you can fine-tune your own T5 model for a question answering task.
+In this code, we have shown how to fine-tune the T5 model for a **Lnaguage Translation** task using the Hugging Face Transformers library. By following the steps outlined in the code, you can fine-tune your own T5 model for a question answering task.
 
 
 
