@@ -52,3 +52,10 @@ Hugging Face Transformers Library: A rich library that provides pre-trained tran
 TensorFlow T5 GitHub Repository: TensorFlow implementation of T5, including pre-trained models and example code.
  
 Note : if you want to learn more check out huggingface docs [here](https://huggingface.co/docs/transformers/model_doc/t5) and this blog [here](https://medium.com/analytics-vidhya/t5-a-detailed-explanation-a0ac9bc53e51)
+
+## Summary:
+please check out use cases created by team [here](https://github.com/highplainscomputing/HPC_T5/tree/main/T5). You will find implementation of many use cases like [Summarization](https://github.com/highplainscomputing/HPC_T5/tree/main/T5/04-summary-generation),
+[Language Translation](https://github.com/highplainscomputing/HPC_T5/tree/main/T5/02-language-translation), etc. 
+Also don't forget to see [Utility Functions](https://github.com/highplainscomputing/HPC_T5/tree/main/utils).
+
+
