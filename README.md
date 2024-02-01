@@ -50,6 +50,15 @@ Additional Resources
 
 Hugging Face Transformers Library: A rich library that provides pre-trained transformer models, including T5, and tools for working with them.
 TensorFlow T5 GitHub Repository: TensorFlow implementation of T5, including pre-trained models and example code.
+
+## How to Fune Tune:
+To fine your models. Like summarizations, Question Answering, Language Translation.
+**The best part is you don't have to change anything except 1 cell.**
+
+![How to Fine Tune](How_to_Fine_Tune.png)
+
+Your effort is to just replace values according to your use case. what is your Dataset name(repo id) from **huggingface**, Prefix can be a column or a pieces of text, etc.
+After that you need to have a wandb account for visualization purposes.
  
 Note : if you want to learn more check out huggingface docs [here](https://huggingface.co/docs/transformers/model_doc/t5) and this blog [here](https://medium.com/analytics-vidhya/t5-a-detailed-explanation-a0ac9bc53e51)
 
