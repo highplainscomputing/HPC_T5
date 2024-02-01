@@ -28,6 +28,20 @@ The dataset consists of three splits as shown below
                                       num_rows: 818
                                   })
                               })
+## Environment Setup
+Our first step involves installing all the required dependencies.
+                                    
+                                    !pip install -q accelerate -U
+                                    !pip install -q -U datasets
+                                    !pip install -q scipy
+                                    !pip install -q ipywidgets
+                                    !pip install -q wandb
+                                    !pip install -q transformers
+                                    !pip install -q torch
+                                    !pip install -q sentencepiece
+                                    !pip install -q tqdm
+                                    !pip install -q evaluate
+                                    !pip install -q rouge_score
 
 
 
