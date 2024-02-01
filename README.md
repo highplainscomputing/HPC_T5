@@ -31,6 +31,20 @@ Install the required packages using the provided requirements.txt file:
 pip install -r requirements.txt
 ```
 
+### For Colab 
+open following notebook in colab
+get two files, download locally and upload those in your colab environment.
+```
+!pip install -r requirements.txt 
+```
+Import utility function in colab like.
+```
+from t5_utils import utils
+```
+For more info of how to use utility functions.
+
+check out this notebook [here](https://github.com/highplainscomputing/HPC_T5/blob/main/T5/06-Text-to-sql/T5_text_to_sql.ipynb)
+
 ## What are Transformers?
 Transformers are a type of neural network architecture introduced by Vaswani et al. in the paper "Attention is All You Need." They have become a fundamental building block in many state-of-the-art natural language processing models. Transformers excel in capturing long-range dependencies and contextual information, making them well-suited for tasks such as machine translation, text summarization, and language understanding.
 
