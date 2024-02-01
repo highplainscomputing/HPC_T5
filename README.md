@@ -1,5 +1,19 @@
 # HPC_T5
 
+## Table of Contents
+
+- [Overview](#Overview)
+- [Environment Setup](#Environment-Setup)
+  - [Virtual Environment](#Virtual-Environment)
+  - [Requirements Installation](#Requirements-Installation)
+  - [For Colab](#For-Colab)
+- [What are Transformers](#What-are-Transformers)
+- [Use Cases](#Use-Cases)
+- [Fine-Tuning](#Fine-Tuning)
+- [How to Fune Tune](#How-to-Fune-Tune)
+- [Summary](#Summary)
+
+
 ## Overview
 
 Welcome to the T5 Transformers repository! T5, or Text-To-Text Transfer Transformer, is a powerful language model that belongs to the Transformer family. It is designed to handle various natural language processing tasks by framing them as text-to-text problems. T5 was introduced by Google Research and has proven to be highly versatile and effective in a wide range of applications.
