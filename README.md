@@ -8,7 +8,7 @@ Welcome to the T5 Transformers repository! T5, or Text-To-Text Transfer Transfor
 Required Python 3.10.12 or Higher versions.
 
 ```
-git clone [https://github.com/highplainscomputing/comment-generator.git](https://github.com/highplainscomputing/HPC_T5.git)
+git clone https://github.com/highplainscomputing/HPC_T5.git
 cd HPC_T5
 ```
 ### Virtual Environment
