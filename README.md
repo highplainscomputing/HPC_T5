@@ -4,6 +4,33 @@
 
 Welcome to the T5 Transformers repository! T5, or Text-To-Text Transfer Transformer, is a powerful language model that belongs to the Transformer family. It is designed to handle various natural language processing tasks by framing them as text-to-text problems. T5 was introduced by Google Research and has proven to be highly versatile and effective in a wide range of applications.
 
+## Environment Setup.
+Required Python 3.10.12 or Higher versions.
+
+```
+git clone [https://github.com/highplainscomputing/comment-generator.git](https://github.com/highplainscomputing/HPC_T5.git)
+cd HPC_T5
+```
+### Virtual Environment
+Create a virtual environment (optional but recommended):
+```bash
+python -m venv myenv
+```
+Activate the virtual environment:
+On Windows:
+```bash
+myvenv\Scripts\activate
+```
+On macOS/Linux:
+```bash
+source myvenv/bin/activate
+```
+### Requirements Installation
+Install the required packages using the provided requirements.txt file:
+```bash
+pip install -r requirements.txt
+```
+
 ## What are Transformers?
 Transformers are a type of neural network architecture introduced by Vaswani et al. in the paper "Attention is All You Need." They have become a fundamental building block in many state-of-the-art natural language processing models. Transformers excel in capturing long-range dependencies and contextual information, making them well-suited for tasks such as machine translation, text summarization, and language understanding.
 
