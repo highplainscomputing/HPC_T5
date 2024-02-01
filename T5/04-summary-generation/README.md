@@ -8,8 +8,18 @@ In natural language processing (NLP), summarization refers to the process of con
 
 ## Dataset 
 We used the [Samsum Dataset](https://huggingface.co/datasets/samsum) to fine-tune the model. The dataset includes chat dialogues, with its summary as shown below. This diverse chat content helps train the model to create effective summaries for conversations.
-   
-   ![image](https://github.com/highplainscomputing/HPC_T5/assets/150230209/9ef65ae5-5525-4ea0-aca2-1d80e33f28af)
+
+                                 Dialogue: 
+                                 
+                                 Olivia: Who are you voting for in this election? 
+                                 Oliver: Liberals as always.
+                                 Olivia: Me too!!
+                                 Oliver: Great)
+                                 ............................................
+                           
+                                 Summary:
+                                 
+                                 Olivia and Olivier are voting for liberals in this election. 
 
 
 The dataset consists of three splits as shown below
