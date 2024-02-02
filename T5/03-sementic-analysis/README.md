@@ -85,15 +85,19 @@ Understanding the data or the model's behavior is crucial, and visualization pla
 ## Evaluation Metrics
 Selecting the appropriate metric is vital for evaluating the performance of any model. In our summarization task, we have employed the [Rouge Score](https://huggingface.co/spaces/evaluate-metric/rouge) to assess the effectiveness of our model.
 ## Fine-tunning 
-![image](https://github.com/highplainscomputing/HPC_T5/assets/150230209/d85cc958-bb99-4c9f-94a7-08a1351fbab4)
+![image](https://github.com/highplainscomputing/HPC_T5/assets/150230209/c9d48c0d-e22a-4758-ad26-cf9f507b707c)
+
 ## Step-wise Training Trends:
-![image](https://github.com/highplainscomputing/HPC_T5/assets/150230209/b24266e2-a55c-4970-b9c4-cf00eaeaa7e4)
+![image](https://github.com/highplainscomputing/HPC_T5/assets/150230209/c82c996e-cc64-4f3b-b75f-076f9a99b3d4)
+
 
 ## Evaluation 
-![image](https://github.com/highplainscomputing/HPC_T5/assets/150230209/a1b1ec9c-80c8-409c-af3e-4b54890552b2)
+![image](https://github.com/highplainscomputing/HPC_T5/assets/150230209/893afb86-b4d8-4398-b011-b02dbf66126b)
+
 
 ## System Metrics
-![image](https://github.com/highplainscomputing/HPC_T5/assets/150230209/4969d222-b526-4566-b866-e52c528cab9e)
+![image](https://github.com/highplainscomputing/HPC_T5/assets/150230209/e1d2c3f4-29bb-456d-882a-4dc850ac041c)
+
 
 ## Inference with Fine-tuned Model
                                           Dialogue: 
