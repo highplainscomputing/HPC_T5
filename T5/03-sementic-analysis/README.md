@@ -35,23 +35,22 @@ Our first step involves installing all the required dependencies.
 We used the [imdb](https://huggingface.co/datasets/imdb) Dataset to fine-tune the model. The is an  Extensive Movie Review Dataset that is designed for binary sentiment classification and surpasses the scale of earlier benchmark datasets. 
 
                                                     Text: 
-                                                    "I can't believe that those praising this movie herein aren't   
-                                                    thinking of some other film. I was prepared for the possibility 
-                                                    that this would be awful, but the script (or lack thereof) makes 
-                                                    for a film that's also pointless. On the plus side, the general 
-                                                    level of craft on the part of the actors and technical crew is 
-                                                    quite competent, but when you've got a sow's ear to work with you 
-                                                    can't make a silk purse. Ben G fans should stick with just about 
-                                                    any other movie he's been in. Dorothy S fans should stick to 
-                                                    Galaxina. Peter B fans should stick to Last Picture Show and 
-                                                    Target. Fans of cheap laughs at the expense of those who seem to 
-                                                    be asking for it should stick to Peter B's amazingly awful book, 
-                                                    Killing of the Unicorn."
-
+                          "I can't believe that those praising this movie herein aren't   
+                          thinking of some other film. I was prepared for the possibility 
+                          that this would be awful, but the script (or lack thereof) makes 
+                          for a film that's also pointless. On the plus side, the general 
+                          level of craft on the part of the actors and technical crew is 
+                          quite competent, but when you've got a sow's ear to work with you 
+                          can't make a silk purse. Ben G fans should stick with just about 
+                          any other movie he's been in. Dorothy S fans should stick to 
+                          Galaxina. Peter B fans should stick to Last Picture Show and 
+                          Target. Fans of cheap laughs at the expense of those who seem to 
+                          be asking for it should stick to Peter B's amazingly awful book, 
+                          Killing of the Unicorn."
                                                     
-                                                    ...................................................................................................................
+                          ..................................................................
                                                     Label:
-                                                    0
+                                                      0
 
 This dataset comprises a collection of 25,000 strongly polar movie reviews for training purposes and an additional 25,000 for testing. Moreover, there is supplementary unlabeled data available for further applications. The data comprises three splits as shown
 
