@@ -83,7 +83,11 @@ This dataset comprises a collection of 25,000 strongly polar movie reviews for t
 Understanding the data or the model's behavior is crucial, and visualization plays a key role in achieving this. We have utilized an open-source [WandB(Weights & Biases)](https://wandb.ai/) to gain insight and visualize the model performance.
 
 ## Evaluation Metrics
-Selecting the appropriate metric is vital for evaluating the performance of any model. In our summarization task, we have employed the [Rouge Score](https://huggingface.co/spaces/evaluate-metric/rouge) to assess the effectiveness of our model.
+Selecting the appropriate metric is vital for evaluating the performance of any model. In our sentiment analysis task, we have employed accuracy to assess the effectiveness of our model. Results are shown below but further increased by increasing steps
+                                    {'accuracy': 0.3381,
+                                     'total_time_in_seconds': 403.3417519300001,
+                                     'samples_per_second': 24.792870939221533,
+                                     'latency_in_seconds': 0.04033417519300001}
 ## Fine-tunning 
 ![image](https://github.com/highplainscomputing/HPC_T5/assets/150230209/c9d48c0d-e22a-4758-ad26-cf9f507b707c)
 
@@ -100,27 +104,22 @@ Selecting the appropriate metric is vital for evaluating the performance of any 
 
 
 ## Inference with Fine-tuned Model
-                                          Dialogue: 
-                                          summarize : 
-                                          Eric: MACHINE!
-                                          Rob: That's so gr8!
-                                          Eric: I know! And shows how Americans see Russian ;)
-                                          Rob: And it's really funny!
-                                          Eric: I know! I especially like the train part!
-                                          Rob: Hahaha! No one talks to the machine like that!
-                                          Eric: Is this his only stand-up?
-                                          Rob: Idk. I'll check.
-                                          Eric: Sure.
-                                          Rob: Turns out no! There are some of his stand-ups on youtube.
-                                          Eric: Gr8! I'll watch them now!
-                                          Rob: Me too!
-                                          Eric: MACHINE!
-                                          Rob: MACHINE!
-                                          Eric: TTYL?
-                                          Rob: Sure :)
-                                          ...........................
-                                          Generated Summary:
-                                          Eric and Rob are watching a stand-up on youtube.
+                                        text: 
+                                        sentiment analysis : In a nutshell the movie is about a gang war in the 
+                                        1950's. Leon, the leader of the Deuces, starts the gang after his brother OD's 
+                                        on "junk". He vows to protect the neighborhood. The leader of the rival gang 
+                                        is just getting out of prison and wants revenge.<br /><br />The movie didn't 
+                                        really do it for me. The "Good Guys" weren't any more good than the "Bad 
+                                        Guys". Very little was shown to suggest that the Deuces really cared for the 
+                                        community. I suppose the writers were going for realism here, but I just 
+                                        didn't care which side won. None of the characters were likable, or even 
+                                        capable of drawing my sympathy.<br /><br />On the plus side the courtship 
+                                        between Annie and Bobby had some snappy dialog, and the acting overall was 
+                                        well done.
+                                        
+                             .........................................................
+                                        sentiment analysis:
+                                        0  
 ## Conclusion
 
 In this code, we demonstrate the process of fine-tuning the T5 model for sentiment analysis using the Hugging Face Transformers library. By adhering to the provided steps in the code, you can fine-tune your own T5 model to effectively analyze and categorize sentiments in given textual inputs, providing valuable insights into positive, and negative.
