@@ -73,8 +73,8 @@ A brief description of what this project does and who
 In natural language processing (NLP), [Summarization](https://huggingface.co/docs/transformers/tasks/summarization) refers to the process of condensing a longer piece of text into a shorter, coherent version while retaining the most important information. The goal of summarization is to provide a concise representation of the essential content, making it easier for readers to understand the main ideas without going through the entire document.
 ![image](https://github.com/highplainscomputing/HPC_T5/assets/150230209/9cc84653-6ae2-4c04-b691-5fabc2632907)
 
-
 ## Visualization using WandB
+Understanding the data or the model's behavior is crucial, and visualization plays a key role in achieving this. We have utilized an open-source [WandB(Weights & Biases)](https://wandb.ai/) to gain insight and visualize the model performance.
 ## Training Metrics
 ## Evaluation Metrics
 ## System Metrics
