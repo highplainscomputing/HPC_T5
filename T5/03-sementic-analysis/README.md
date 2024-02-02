@@ -84,6 +84,7 @@ Understanding the data or the model's behavior is crucial, and visualization pla
 
 ## Evaluation Metrics
 Selecting the appropriate metric is vital for evaluating the performance of any model. In our sentiment analysis task, we have employed accuracy to assess the effectiveness of our model. Results are shown below but further increased by increasing steps
+                                   
                                     {'accuracy': 0.3381,
                                      'total_time_in_seconds': 403.3417519300001,
                                      'samples_per_second': 24.792870939221533,
