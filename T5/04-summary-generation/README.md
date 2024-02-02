@@ -81,10 +81,14 @@ Selecting the appropriate metric is vital for evaluating the performance of any 
 ## Fine-tunning 
 ![image](https://github.com/highplainscomputing/HPC_T5/assets/150230209/d85cc958-bb99-4c9f-94a7-08a1351fbab4)
 ## Step-wise Training Trends:
+![image](https://github.com/highplainscomputing/HPC_T5/assets/150230209/b24266e2-a55c-4970-b9c4-cf00eaeaa7e4)
 
 ## Evaluation 
+![image](https://github.com/highplainscomputing/HPC_T5/assets/150230209/a1b1ec9c-80c8-409c-af3e-4b54890552b2)
+
 ## System Metrics
-## Evaluation
+![image](https://github.com/highplainscomputing/HPC_T5/assets/150230209/4969d222-b526-4566-b866-e52c528cab9e)
+
 ## Conclusion
 
 
