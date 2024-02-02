@@ -35,7 +35,19 @@ Our first step involves installing all the required dependencies.
 We used the [imdb](https://huggingface.co/datasets/imdb) Dataset to fine-tune the model. The is an  Extensive Movie Review Dataset that is designed for binary sentiment classification and surpasses the scale of earlier benchmark datasets. 
 
                                                     Text: 
-                                                    "I Am Curious: Yellow" is a risible and pretentious steaming pile. It doesn't matter what one's political views are because this film can hardly be taken seriously on any level. As for the claim that frontal male nudity is an automatic NC-17, that isn't true. I've seen R-rated films with male nudity. Granted, they only offer some fleeting views, but where are the R-rated films with gaping vulvas and flapping labia? Nowhere, because they don't exist. The same goes for those crappy cable shows: schlongs swinging in the breeze but not a clitoris in sight. And those pretentious indie movies like The Brown Bunny, in which we're treated to the site of Vincent Gallo's throbbing johnson, but not a trace of pink visible on Chloe Sevigny. Before crying (or implying) "double-standard" in matters of nudity, the mentally obtuse should take into account one unavoidably obvious anatomical difference between men and women: there are no genitals on display when actresses appears nude, and the same cannot be said for a man. In fact, you generally won't see female genitals in an American film in anything short of porn or explicit erotica. This alleged double-standard is less a double standard than an admittedly depressing ability to come to terms culturally with the insides of women's bodies.
+                                                    "I can't believe that those praising this movie herein aren't   
+                                                    thinking of some other film. I was prepared for the possibility 
+                                                    that this would be awful, but the script (or lack thereof) makes 
+                                                    for a film that's also pointless. On the plus side, the general 
+                                                    level of craft on the part of the actors and technical crew is 
+                                                    quite competent, but when you've got a sow's ear to work with you 
+                                                    can't make a silk purse. Ben G fans should stick with just about 
+                                                    any other movie he's been in. Dorothy S fans should stick to 
+                                                    Galaxina. Peter B fans should stick to Last Picture Show and 
+                                                    Target. Fans of cheap laughs at the expense of those who seem to 
+                                                    be asking for it should stick to Peter B's amazingly awful book, 
+                                                    Killing of the Unicorn."
+
                                                     
                                                     ...................................................................................................................
                                                     Label:
