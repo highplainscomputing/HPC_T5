@@ -75,8 +75,13 @@ In natural language processing (NLP), [Summarization](https://huggingface.co/doc
 
 ## Visualization using WandB
 Understanding the data or the model's behavior is crucial, and visualization plays a key role in achieving this. We have utilized an open-source [WandB(Weights & Biases)](https://wandb.ai/) to gain insight and visualize the model performance.
-## Training Metrics
+
 ## Evaluation Metrics
+Selecting the appropriate metric is vital for evaluating the performance of any model. In our summarization task, we have employed the [Rouge Score](https://huggingface.co/spaces/evaluate-metric/rouge) to assess the effectiveness of our model.
+## Fine-tunning 
+![image](https://github.com/highplainscomputing/HPC_T5/assets/150230209/d85cc958-bb99-4c9f-94a7-08a1351fbab4)
+
+## Evaluation 
 ## System Metrics
 ## Evaluation
 ## Conclusion
