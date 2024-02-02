@@ -1,5 +1,5 @@
 
-# Fine-Tuning T5 Model for Summarization using Transformers Library
+# Fine-Tuning T5 Model for Sentiment Analysis using Transformers Library
 
 ## Table of Contents
 
@@ -68,11 +68,11 @@ The dataset consists of three splits as shown below
 
 
 
-## Summarization Model
+## Sentiment Analysis Model
 
-A brief description of what this project does and who 
-In natural language processing (NLP), [Summarization](https://huggingface.co/docs/transformers/tasks/summarization) refers to the process of condensing a longer piece of text into a shorter, coherent version while retaining the most important information. The goal of summarization is to provide a concise representation of the essential content, making it easier for readers to understand the main ideas without going through the entire document.
-![image](https://github.com/highplainscomputing/HPC_T5/assets/150230209/9cc84653-6ae2-4c04-b691-5fabc2632907)
+[Sentiment analysis](https://huggingface.co/blog/sentiment-analysis-python), a field within natural language processing (NLP), is dedicated to understanding the sentiments conveyed in textual data, categorizing them as positive, negative, or neutral. This powerful technique finds widespread use across various industries due to its ability to extract valuable insights from the opinions and emotions expressed in text. 
+![image](https://github.com/highplainscomputing/HPC_T5/assets/150230209/581d1dae-e13e-45c4-a189-f6d3867c917e)
+
 
 ## Visualization using WandB
 Understanding the data or the model's behavior is crucial, and visualization plays a key role in achieving this. We have utilized an open-source [WandB(Weights & Biases)](https://wandb.ai/) to gain insight and visualize the model performance.
@@ -114,6 +114,5 @@ Selecting the appropriate metric is vital for evaluating the performance of any 
                                           Eric and Rob are watching a stand-up on youtube.
 ## Conclusion
 
-In this code, we illustrate the process of fine-tuning the T5 model for a summarization task using the Hugging Face Transformers library. By following the outlined steps in the code, you can fine-tune your own T5 model to generate concise and coherent summaries for a given input
-
+In this code, we demonstrate the process of fine-tuning the T5 model for sentiment analysis using the Hugging Face Transformers library. By adhering to the provided steps in the code, you can fine-tune your own T5 model to effectively analyze and categorize sentiments in given textual inputs, providing valuable insights into positive, and negative.
 
