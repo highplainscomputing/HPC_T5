@@ -70,7 +70,7 @@ The dataset consists of three splits as shown below
 ## Summarization Model
 
 A brief description of what this project does and who 
-In natural language processing (NLP), summarization refers to the process of condensing a longer piece of text into a shorter, coherent version while retaining the most important information. The goal of summarization is to provide a concise representation of the essential content, making it easier for readers to understand the main ideas without going through the entire document.
+In natural language processing (NLP), [Summarization](https://huggingface.co/docs/transformers/tasks/summarization) refers to the process of condensing a longer piece of text into a shorter, coherent version while retaining the most important information. The goal of summarization is to provide a concise representation of the essential content, making it easier for readers to understand the main ideas without going through the entire document.
 ## Visualization using WandB
 ## Training Metrics
 ## Evaluation Metrics
