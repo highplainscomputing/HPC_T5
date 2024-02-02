@@ -1,7 +1,23 @@
+
+# Fine-Tuning T5 Model for Summarization using Transformers Library
+
+## Table of Contents
+
+- [Overview](#Overview)
+- [Prerequisites and Environment](#Prerequisites-and-Environment)
+- [Data](#Data)
+- [Summarization Model](#Summarization-Model)
+- [Visualization using WandB](#Visualization-using-WandB)
+- [Training Metrics](#Training-Metrics)
+- [Evaluation Metrics](#Evaluation-Metrics)
+- [System Metrics](#System-Metrics)
+- [Evaluation](#Evaluation)
+- [Conclusion](#Conclusion)
+
 ## Overview
 We have fine-tuned the [google/flan-t5-base](https://huggingface.co/google/flan-t5-base) model to excel in summarization tasks. This fine-tuned model can proficiently generate concise and meaningful summaries
 
-## Summarization 
+## Summarization Model
 
 A brief description of what this project does and who 
 In natural language processing (NLP), summarization refers to the process of condensing a longer piece of text into a shorter, coherent version while retaining the most important information. The goal of summarization is to provide a concise representation of the essential content, making it easier for readers to understand the main ideas without going through the entire document.
