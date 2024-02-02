@@ -8,10 +8,11 @@
 - [Data](#Data)
 - [Summarization Model](#Summarization-Model)
 - [Visualization using WandB](#Visualization-using-WandB)
-- [Training Metrics](#Training-Metrics)
-- [Evaluation Metrics](#Evaluation-Metrics)
+- [Fine-tunning ](#Fine-tunning )
+- [Step-wise Training Trends](#Step-wise-Training-Trends)
+- [Evaluation](#Evaluation ) 
 - [System Metrics](#System-Metrics)
-- [Evaluation](#Evaluation)
+- [Inference with Fine-tuned Model](#Inference-with-Fine-tuned-Model)
 - [Conclusion](#Conclusion)
 
 ## Overview
@@ -89,7 +90,30 @@ Selecting the appropriate metric is vital for evaluating the performance of any 
 ## System Metrics
 ![image](https://github.com/highplainscomputing/HPC_T5/assets/150230209/4969d222-b526-4566-b866-e52c528cab9e)
 
+## Inference with Fine-tuned Model
+                                          Dialogue: 
+                                          summarize : 
+                                          Eric: MACHINE!
+                                          Rob: That's so gr8!
+                                          Eric: I know! And shows how Americans see Russian ;)
+                                          Rob: And it's really funny!
+                                          Eric: I know! I especially like the train part!
+                                          Rob: Hahaha! No one talks to the machine like that!
+                                          Eric: Is this his only stand-up?
+                                          Rob: Idk. I'll check.
+                                          Eric: Sure.
+                                          Rob: Turns out no! There are some of his stand-ups on youtube.
+                                          Eric: Gr8! I'll watch them now!
+                                          Rob: Me too!
+                                          Eric: MACHINE!
+                                          Rob: MACHINE!
+                                          Eric: TTYL?
+                                          Rob: Sure :)
+                                          ...........................
+                                          Generated Summary:
+                                          Eric and Rob are watching a stand-up on youtube.
 ## Conclusion
 
+In this code, we illustrate the process of fine-tuning the T5 model for a summarization task using the Hugging Face Transformers library. By following the outlined steps in the code, you can fine-tune your own T5 model to generate concise and coherent summaries for a given input
 
 
